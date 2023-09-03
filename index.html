@@ -6,14 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="index.html">
-  <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="php/index.php">
   <link rel="stylesheet" href="css/style.css">
   <!--icone do formulario que aparecerá na aba do navegador 16x16/.ico-->
   <link rel="shortcut icon" href="imagens/formulario-de-contato.ico" type="image/x-icon">
   <title>Formulário</title>
 </head>
-
 <body>
 
 <!-- Parte das box Nome,Sobrenome,E-mail,Número-->
@@ -24,35 +22,36 @@
 
         <div class="inputbox">
           <input type="text" name="nome" id="nome" class="user" required>
-          <label for="nome">Nome</label>
-        </div><br>
+          <label for="nome" class="labelinput">Nome</label>
+        </div><br><br>
 
         <div class="inputbox">
           <input type="text" name="nome" id="nome" class="user" required>
-          <label for="nome">Sobrenome</label>
-        </div><br>
+          <label for="nome" class="labelinput">Sobrenome</label>
+        </div><br><br>
 
         <div class="inputbox">
           <input type="email" name="email" id="email" class="user" required>
-          <label for="email">E-mail</label>
-        </div><br>
+          <label for="email" class="labelinput">E-mail</label>
+        </div><br><br>
 
         <div class="inputbox">
           <input type="tel" name="Telefone" id="Telefone" class="user" required>
-          <label for="Telefone">Número de Telefone</label>
+          <label for="Telefone" class="labelinput">Número de Telefone</label>
         </div>
 <!--Seleção do genero, só pode marcar uma alternativa-->
         <p>Gênero</p>
         <input type="radio" id="masculino" name="genero" value="masculino" required>
-        <label for="masculino">Masculino</label>
+        <label for="masculino">Masculino</label><br>
         <input type="radio" id="feminino" name="genero" value="feminino" required>
-        <label for="feminino">Feminino</label>
+        <label for="feminino">Feminino</label><br>
         <input type="radio" id="outro" name="genero" value="outro" required>
         <label for="outro">Outros</label><br><br>
         <!--Seleção de Data de nascimento-->
-        <label for="date"><b>Data de Nascimento: </b></label>
-        <input type="date" name="date" id="date" class="user" required>
+        <label for="date"><b>Data de Nascimento: </b></label><br><br>
+        <input type="date" name="date" id="date" class="date" required>
        <br><br>
+       <!--Botao para enviar o arquivo-->
         <input type="submit" name="button" id="button">
       </fieldset>
 
