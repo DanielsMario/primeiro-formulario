@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://cdn-media-2.freecodecamp.org/w1280/5f9c9cfc740569d1a4ca3543.jpg);
+}
+
+.box-form{
+    color:white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: hsla(213, 71%, 70%, 0.336);
+    padding: 15px;
+    border-radius: 15px;
+    width: 20%;
+}
+
+fieldset{
+    border: 3px solid rgba(66, 155, 245, 0.411);
+}
+
+legend{
+    border: 1px solid rgba(66, 155, 245, 0.411);
+    padding: 10px;
+    text-align: center;
+    background-color:rgba(66, 155, 245, 0.411);
+    border-radius: 9px;
+}
+
+.inputbox{
+    position: relative;
+}
+
+.user{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
