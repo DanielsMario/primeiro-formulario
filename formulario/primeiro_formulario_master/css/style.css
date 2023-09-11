@@ -1,0 +1,83 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://cdn-media-2.freecodecamp.org/w1280/5f9c9cfc740569d1a4ca3543.jpg);
+}
+
+.box-form{
+    color:white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: hsla(213, 97%, 60%, 0.473);
+    padding: 15px;
+    border-radius: 15px;
+    width: 20%;
+}
+
+fieldset{
+    border: 3px solid white;
+    border-radius: 15px;
+}
+
+legend{
+    border: 1px solid rgba(66, 155, 245, 0.411);
+    padding: 10px;
+    text-align: center;
+    background-color:rgba(66, 155, 245, 0.411);
+    border-radius: 9px;
+}
+
+.inputbox{
+    position: relative;
+}
+
+.user{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.labelinput {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.user:focus ~ .labelinput,
+.user:valid ~ .labelinput{
+    top: -20px;
+    font-size: 12px;
+    color: white}
+
+    .date {
+        border: none;
+        padding: 8px;
+        border-radius: 10px;
+        outline: none;
+        font-size: 15px;
+    }
+
+  #button{
+    background-color:rgba(66, 155, 245, 0.753);
+    width: 100%;
+    border:none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+   cursor: pointer; 
+   border-radius: 10px;
+
+  }
+
+  #button:hover{
+    background-color:rgb(43, 144, 245);
+
+  }
