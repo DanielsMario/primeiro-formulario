@@ -7,7 +7,7 @@
 </head>
 <body>
 <?php
-include_once('tabuada.php')
+include_once('dashboard.php')
 ?>
 <form action="resultadotabuada.php" method="post">
 <div class="caixa">

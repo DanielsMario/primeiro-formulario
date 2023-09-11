@@ -9,7 +9,7 @@
 </head>
 <body>
 <?php 
-  include_once('calculadora.php')
+  include_once('dashboard.php')
   ?>
     <form action="calculo.php" method="post">
         <h1 id="titulo">Calculadora</h1>

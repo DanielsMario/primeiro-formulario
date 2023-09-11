@@ -18,9 +18,9 @@
     <div class="menu">
         <ul>
         <li><a href="dashboard.php">Home</a></li>
-        <li><a href="php/formulario.php">Formulário</a></li>
-        <li><a href="php/calculadora.php">Calculadora</a></li>
-        <li><a href="php/tabuada.php">Tabuada</a></li>
+        <li><a href="formulario.php">Formulário</a></li>
+        <li><a href="calculadora.php">Calculadora</a></li>
+        <li><a href="tabuada.php">Tabuada</a></li>
     </div>
     
 </body>

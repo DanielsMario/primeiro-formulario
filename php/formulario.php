@@ -14,7 +14,7 @@
 </head>
 <body>
 <?php 
-   include_once('formulario.php')
+   include_once('dashboard.php')
   ?>
 <!-- Parte das box Nome,Sobrenome,E-mail,Número-->
   <div class="box-form">
